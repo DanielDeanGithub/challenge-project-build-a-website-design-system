@@ -75,6 +75,7 @@ h2, .dm-sans {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .gunmetal {

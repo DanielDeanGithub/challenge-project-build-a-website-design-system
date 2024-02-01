@@ -48,6 +48,7 @@ section {
     padding: 15px 15px;
     border: 1px solid #272D2D;
     margin: 15px 0;
+    border-radius: 10px;
 }
 
 body, .finlandica {
@@ -110,4 +111,12 @@ p {
 
 .font-panel, .text-panel {
     margin: 10px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }

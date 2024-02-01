@@ -2,4 +2,15 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
+
+    border: 1px solid;
+}
+
+body {
+    width: 66vw;
+    margin: auto;
+}
+
+ul li {
+    margin-left: 25px;
 }

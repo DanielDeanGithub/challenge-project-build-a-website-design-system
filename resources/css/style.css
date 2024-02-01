@@ -37,6 +37,7 @@ body {
     margin: auto;
     color:#272D2D;
     background-color: #F6F8FF;
+    line-height: 1.6;
 }
 
 ul li {
@@ -44,7 +45,9 @@ ul li {
 }
 
 section {
-    padding: 15px 0;
+    padding: 15px 15px;
+    border: 1px solid #272D2D;
+    margin: 15px 0;
 }
 
 body, .finlandica {
@@ -88,4 +91,23 @@ h2, .dm-sans {
 
 .ghost-white {
     background-color: #F6F8FF;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.font-panel, .text-panel {
+    margin: 10px 0;
 }

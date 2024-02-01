@@ -35,8 +35,8 @@
 body {
     width: 66vw;
     margin: auto;
-    color:#272D2D;
-    background-color: #F6F8FF;
+    color:hsl(180, 7%, 16%);
+    background-color: hsl(227, 100%, 98%);
     line-height: 1.6;
 }
 
@@ -46,7 +46,7 @@ ul li {
 
 section {
     padding: 15px 15px;
-    border: 1px solid #272D2D;
+    border: 1px solid hsl(180, 7%, 16%);
     margin: 15px 0;
     border-radius: 10px;
 }
@@ -70,7 +70,7 @@ h2, .dm-sans {
 
 .color-panel {
     width: 100%;
-    min-height: 100px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,20 +78,20 @@ h2, .dm-sans {
 }
 
 .gunmetal {
-    background-color: #272D2D;
-    color: #F6F8FF;
+    background-color: hsl(180, 7%, 16%);
+    color: hsl(227, 100%, 98%);
 }
 
 .spring-green {
-    background-color: #21FA90;
+    background-color: hsl(151, 96%, 55%);
 }
 
 .antique-white {
-    background-color: #FDEBD4;
+    background-color: hsl(34, 91%, 91%);
 }
 
 .ghost-white {
-    background-color: #F6F8FF;
+    background-color: hsl(227, 100%, 98%);
 }
 
 h1 {
@@ -119,4 +119,8 @@ p {
 
 .italic {
     font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
 }

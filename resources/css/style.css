@@ -65,11 +65,10 @@ h2, .dm-sans {
 
 .color-container {
     display: flex;
-    justify-content: space-evenly;
 }
 
 .color-panel {
-    width: 100%;
+    flex-grow: 1;
     min-height: 200px;
     display: flex;
     flex-direction: column;
@@ -124,4 +123,14 @@ p {
 
 .underline {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 640px) {
+    .color-container {
+        flex-direction: column;
+    }
+    
+    .color-panel { 
+        min-height: auto;
+    }
 }

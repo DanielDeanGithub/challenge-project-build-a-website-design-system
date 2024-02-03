@@ -47,7 +47,7 @@ ul li {
 section {
     padding: 15px 15px;
     border: 1px solid hsl(180, 7%, 16%);
-    margin: 15px 0;
+    margin: 15px auto;
     border-radius: 10px;
 }
 
@@ -63,8 +63,14 @@ h2, .dm-sans {
     font-family: 'DM Sans', Helvetica, sans-serif;
 }
 
-.color-container {
+.color-container, .font-container, .text-container {
     display: flex;
+}
+
+.font-container, .text-container {
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 5%;
 }
 
 .color-panel {
@@ -110,7 +116,8 @@ p {
 }
 
 .font-panel, .text-panel {
-    margin: 10px 0;
+    flex-grow: 1;
+    margin: 15px auto;
 }
 
 .bold {

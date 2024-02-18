@@ -1,8 +1,8 @@
+#### Objective provided by Codecademy
+
 ### WEB DEVELOPMENT FOUNDATIONS
 
 # Challenge Project: Build a Website Design System
-
-#### Objective provided by Codecademy:
 
 # Overview
 
